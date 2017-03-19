@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta name="viewport"content="width=device-width, initial-scale=1, maximum-scale=1.0" />
+
+
+	<!-- SEO Meta Tags -->
+		<meta name="description" content="StandFreeBee" />
+		<meta name="keywords" content="StandFreeBee" />
+		<meta name="author" content="Jaxon Stevens" />
+		<meta name="thumbnail" content="images/LogoSquare.png" />
+
+	<title>StandFree Bee</title>
+
+
+	<!-- CSS  -->
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+	rel="stylesheet">
+	<link href="css/materialize.css" type="text/css" rel="stylesheet"
+	media="screen,projection" />
+
+
+	<!--Jquery Code Source-->
+	<script src='https://code.jquery.com/jquery-latest.js'></script>
+	<!-- ADDED AJAX SCRIPT -->
+	<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+</head>
+<body>
+
+	<!-- Style CSS Elements for page -->
+	<style>
+
+	* {
+		box-sizing: border-box;
+	}
+
+	body {
+		margin: 0; /* Enables elements to touch sides of browser window. */
+		background-image: url("images/backgroundimage.png");
+
+	}
+
+	.logo {
+
+		width: 200px;
+		height: 200px;
+
+	}
+
+
+	.mountains {
+
+		background-image: url("images/.png");
+		position:fixed;
+		top: 600px;
+		left: 0px;
+
+		display: flex;
+		min-height: 50vh;
+		flex-direction: column;
+	}
+
+	main {
+    flex: 1 0 auto;
+  }
+
+	.ufo {
+		width: 250px;
+		margin: 0 auto;
+
+	}
+
+	.backgroundimage {
+		position: fixed;
+		top: 0px;
+		left: 0px;
+		background-repeat: repeat-x;
+		height: 300px;
+		width:200%
+	}
+
+
+	</style>
+
+			<nav>
+				<div class="nav-wrapper #26c6da cyan lighten-1">
+					<a href="#!" class="brand-logo center "></a>
+					<ul class="center">
+
+						<!-- Level Editor Button -->
+
+						<a <class="btn-floating btn-large halfway-fab waves-effect waves-light #424242 grey darken-3 z-depth-5" href="http://www.standfreebee.com" >
+						<i class="tooltipped material-icons" data-position="bottom" data-delay="50" data-tooltip="Home">dashboard</i>
+
+					</a>
+
+          <div class="row">
+
+					<div class="col s12"><class="flow-text"><img class="responsive-img mountains" src="images/mountains.png"></div>
+				 </div>
+
+
+					<!-- End Navigation -->
+					<div class="section no-pad-bot" id="index-banner">
+						<div class="container">
+							<div class="row center">
+								<img width="451" height="32" class="logo" src="images/StandFreeBeeSquare.png" alt="logo">
+							</div>
+
+
+							<div class="container">
+
+										<!-- Dropdown Trigger -->
+									   <a class='dropdown-button large-btn #26c6da cyan lighten-1' href='#' data-activates='dropdown1'>Select a harassment topic</a>
+
+									   <!-- Dropdown Structure -->
+									   <ul id='dropdown1' class='dropdown-content'>
+									     <li><a href="http://www.standfreebee.com/form#VerbalHarrassment">Verbal Harrassment</a></li>
+									     <li><a href="http://www.standfreebee.com/form#Racism">Racism</a></li>
+											 <li><a href="http://www.standfreebee.com/form#Sexism">Sexism</a></li>
+											 <li><a href="http://www.standfreebee.com/form#PhysicalThreat">Physical Threat</a></li>
+											 <li><a href="http://www.standfreebee.com/form#Racism">Racism</a></li>
+											 <li><a href="http://www.standfreebee.com/form#PhysicalHarrassment">Physical Harrassment</a></li>
+									     <li class="divider"></li>
+											 <li><a href="http://www.standfreebee.com/form#General">General Help</a></li>
+									   </ul>
+
+										<div class="container">
+
+
+										<!--  Scripts-->
+										<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+										<script src="js/materialize.js"></script>
+										<script src="js/init.js"></script>
+
+										<script>  $(document).ready(function(){
+											$('.tooltipped').tooltip({delay: 50});
+										}); </Script>
